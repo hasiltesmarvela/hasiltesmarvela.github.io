@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<h1> Hello! Mind telling me your Date Of Birth? </h1>
+<p>
+  <label>
+    *By telling me your Date of Birth, i could guess your name!<br>
+    (Please input in this format ex. "03 Maret 2005")
+    <input id="date">
+  </label>
+</p>
+<button id="button">
+  Guess my name!
+</button>
+<h2 id="name"></h2>
+
+<script>
+function action(){
+	name.textContent = "Let me guess..."
+if (date.value == '19 Mei 2005'){
+	name.textContent = "You are Marvela! Happy Birthday!"
+}
+}
+button.onclick = action;
+</script>
